@@ -1,0 +1,34 @@
+.oakley {
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+}
+
+.two-columns-oakley {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns-oakley__title {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns-oakley__main-text {
+  width: 80%;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns-oakley__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: justify;
+  row-gap: 30px;
+}

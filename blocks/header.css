@@ -1,0 +1,90 @@
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+    /* parameters for the header section */
+}
+
+.header__logo_place_header {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  z-index: 1;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  width: 388px;
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  z-index: 1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: opacity linear 0.2s;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
+
+.header__main-ilustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 756px;
+  height: 608px;
+  z-index: 1;
+}
+
+.header__square {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  z-index: 0;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
+}

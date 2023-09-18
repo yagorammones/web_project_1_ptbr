@@ -1,0 +1,77 @@
+
+.footer {
+  min-height: 350px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__collumns {
+  display: flex;
+  width: 90%;
+  margin: 60px auto 40px;
+  justify-content: space-between;
+}
+
+.footer__collumn_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  justify-content: right;
+  display: flex;
+  width: 183px;
+  height: 35px;
+  margin: 0;
+}
+
+.footer__author {
+  display: flex;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  align-self: last baseline;
+  margin-bottom: 18px;
+  margin-left: -180px;
+}
+
+.footer__collumn_content_about {
+  margin-left: -50px;
+}
+
+.footer__collumn-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  row-gap: 20px;
+  margin-right: 50px;
+}
+
+.footer__list {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__collumn-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__collumn_content_social {
+  margin-right: 0;
+}
+
+.footer__social-icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}

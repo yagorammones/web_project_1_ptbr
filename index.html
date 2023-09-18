@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>Aprendendo a aprender</title>
 </head>
 <body>
@@ -17,21 +17,135 @@
         <div class="header__square"></div>
     </header>
     <main class="content">
-      <section class="description two-collumns">
-           <h6 class="two-collumns__brief">O maior problema da educação</h6>
-          <div class="two-collumns__main-text">
-            <p class="two-collumns__paragraph">Seja na escola ou na universidade, o assunto que ninguém vai te ensinar é como se tornar autodidata. Nós repetimos exercícios específicos
+      <section class="description two-columns">
+           <h6 class="two-columns__brief">O maior problema da educação</h6>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              Seja na escola ou na universidade, o assunto que ninguém vai te ensinar é como se tornar autodidata. Nós repetimos exercícios específicos
               e memorizamos informações sem pensar e quando chega a hora do exame, o objetivo é apenas passar. Mas depois que o exame acaba, essa informação não tem mais utilidade, e não
               há garantia que ela será retida. No fim, nós só estamos aprendendo mesmo a passar nas nossas provas.
             </p>
-            <p class="two-collumns__paragraph"><span class="two-collumns__span-accent">Aqui vai a pergunta de fato:</span> será que essa abordagem de repetição e memorização nos ajuda
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">
+              Aqui vai a pergunta de fato:</span> será que essa abordagem de repetição e memorização nos ajuda
               realmente a entender o assunto? O consenso na academia atualmente é de que não ajuda. Aliás, mais importante do que um tópico individual é saber como estudar, mas por algum
               motivo esta questão é sempre deixada de lado. Então, o que podemos fazer para remediar isso?
             </p>
-            <p class="two-collumns__paragraph">Bem, há várias técnicas e exercícios que podem ser aplicados ao processo educacional para ajudar a torná-lo mais eficiente e cativante. Continue
+            <p class="two-columns__paragraph">
+              Bem, há várias técnicas e exercícios que podem ser aplicados ao processo educacional para ajudar a torná-lo mais eficiente e cativante. Continue
               lendo para descobrir alguns dos segredos do aprendizado eficaz.
             </p>
           </div>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Aprender Técnicas</h2>
+        <h3 class="section-subtitle">
+          As Cinco estratégias de Barbara Oakley
+        </h3>
+        <ul class="cards">
+          <li class="cards__item">
+            <img
+              class="cards__image"
+              src="./images/cards-attention.png"
+              alt="Pessoa segurando livro"
+            />
+            <h3 class="cards__title">As Duas Maneiras de Pensar</h3>
+            <p class="cards__description">
+              Uma compreensão profunda surge da capacidade de alternar entre o
+              pensamento difuso e o focado.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img
+              class="cards__image"
+              src="./images/cards-recall.png"
+              alt="Escultura de uma criança"
+            />
+            <h3 class="cards__title">Recordar</h3>
+            <p class="cards__description">
+              Melhorar sua capacidade de para recordar pequenas informações
+              importantes ajuda a conectar diferentes partes do cérebro.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img
+              class="cards__image"
+              src="./images/cards-interleaving.png"
+              alt="Local cheio de pessoas"
+            />
+            <h3 class="cards__title">Intercalar</h3>
+            <p class="cards__description">
+              Quando você aprende diferentes habilidades ao mesmo tempo, elas
+              fortalecem umas às outras.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img
+              class="cards__image"
+              src="./images/cards-question.png"
+              alt="Local grande com uma pessoa sendo vista de cima"
+            />
+            <h3 class="cards__title">Questões</h3>
+            <p class="cards__description">
+              Quando estiver escutando seu professor, pense em uma boa
+              pergunta, algo que você realmente gostaria de saber.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img
+              class="cards__image"
+              src="./images/cards-competence.png"
+              alt="Pessoa segurando vários livros com a mão"
+            />
+            <h3 class="cards__title">Ilusão da Competência</h3>
+            <p class="cards__description">
+              Teste a si mesmo, anote, fale com outra pessoa e repita o
+              processo de diferentes situações. Somente assim você vai ter
+              certeza de que entendeu alguma coisa.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">Conversas TED</h2>
+        <h3 class="section-subtitle">Para os amantes da procrastinação</h3>
+        <div class="video__iframes">
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/5MgBikgcWnY"
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/arj7oStGLkU"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="oakley two-columns-oakley">
+         <h6 class="two-columns-oakley__title">A história de Barbara Oakley.</h6>
+          <div class="two-columns-oakley__main-text">
+            <p class="two-columns-oakley__paragraph">
+              A matemática não veio naturalmente para Barbara na infância. Ela
+              se identificava mais com ciências humanas, e que não era muito
+              brilhante nisso. Com o objetivo de se especializar em
+              linguística, após terminar seus estudos, ela se alistou no
+              Exército, que a enviou para aprender russo. Após vários anos de
+              serviço, tornando-se capitã, Barbara deixou o Exército e decidiu
+              estudar engenharia. Foi nesta época que ela desenvolveu a
+              metodologia de aprendizagem, pois precisou reprogramar seu
+              cérebro para um tipo diferente de aprendizagem. Quando algo não
+              ocorre naturalmente, então é preciso trabalhar duro para obter o
+              conhecimento que outras pessoas podem obter rapidamente, dando
+              assim uma visão mais profunda e abrangente do assunto.
+            </p>
+          </div>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">A Técnnica de Feynman</h2>
+        <h4 class="feynman__subtitle">Aprender sem esquecer</h4>
+        <a class="feynman__link" href="#">Mais &#8594;</a>
       </section>
 
       <section class="digits">
@@ -76,10 +190,30 @@
 
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">A Técnnica de Feynman</h2>
-        <h4 class="feynman__subtitle">Aprender sem esquecer</h4>
-        <a class="feynman__link" href="#">Mais &#8594;</a>
+      <section class="khan">
+        <div class="khan__container">
+          <h3 class="khan__author">Salman Khan</h3>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <article class="khan__quote">
+            A paixão e inovação de Sal Khan é transformar o aprendizado para
+            milhões de estudantes no mundo todo. O livro The One World
+            Schoolhouse é uma leitura obrigatória para quem quer melhorar a
+            educação e que os estudantes habilidades e conhecimentos
+            necessários na escola, na carreira, e na vida em geral.
+          </article>
+          <h4 class="khan__quote-author">George Lucas</h4>
+          <h5 class="khan__quote-author-subline">Diretor</h5>
+          <div class="khan__book-container">
+            <div class="khan__pic-container">
+              <img
+                src="./images/khan-book-2.png"
+                alt="Capa do livro de Salman Khan chamado The One World School House"
+                class="khan__book-pic"
+              />
+            </div>
+            <a href="#" class="khan__buy-link">Comprar →</a>
+          </div>
+        </div>
       </section>
 
       <section class="kaufman">
@@ -128,6 +262,40 @@
             </li>
           </ul>
           <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Um grande triângulo azul, sobre o qual Josh Kaufman reclama propriedade">
+      </section>
+
+      <section class="resources">
+        <h2 class="section-title">Recursos úteis</h2>
+        <h3 class="section-subtitle">
+          Material adicional sobre técnicas e hacks de aprendizagem.
+        </h3>
+        <div class="resources__logo-zone">
+          <a href="#"
+            ><img
+              class="resources__logo"
+              src="./images/logo/resources-tedED.png"
+              alt="Logo do TED"
+          /></a>
+          <a href="#"
+            ><img
+              class="resources__logo"
+              src="./images/logo/resources-Medium.png"
+              alt="Logo da Medium"
+          /></a>
+          <a href="#"
+            ><img
+              class="resources__logo"
+              src="./images/logo/resources-dezeen.png"
+              alt="Logo De Zeen"
+          /></a>
+          <a href="#"
+            ><img
+              class="resources__logo"
+              src="./images/logo/resources-goodreads.png"
+              alt="Logo da
+            Goodreads"
+          /></a>
+        </div>
       </section>
     </main>
     <footer class="footer">

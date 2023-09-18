@@ -1,0 +1,21 @@
+.resources {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 217px 0;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 20px auto 0;
+  flex-wrap: wrap;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  transition: opacity linear 0.2s;
+}
+
+.resources__logo:hover {
+  opacity: 0.6;
+}
